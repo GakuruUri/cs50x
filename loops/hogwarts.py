@@ -19,17 +19,27 @@
 # # what if you have hundreds of students?
 
 
-students = {"Hermoine": "Gryffindor",
-            "Harry": "Gryffindor",
-            "Ron": "Gryffindor",
-            "Draco": "Slytherin",
-            }
+# students = {"Hermoine": "Gryffindor",
+#             "Harry": "Gryffindor",
+#             "Ron": "Gryffindor",
+#             "Draco": "Slytherin",
+#             }
 
-# print(students["Hermoine"])
-# print(students["Harry"])
-# print(students["Ron"])
-# print(students["Draco"])
+# # print(students["Hermoine"])
+# # print(students["Harry"])
+# # print(students["Ron"])
+# # print(students["Draco"])
 
-# When you use a for loop to iterate over a dict, it returns the keys.
-for student in students:
-    print(student, students[student], sep=", ")
+# # When you use a for loop to iterate over a dict, it returns the keys.
+# for student in students:
+#     print(student, students[student], sep=", ")
+
+
+students = [
+    {"name": "Hermoine", "House": "Gryffindor", "patronus": "Otter"},
+    {"name": "Harry", "house": "Gryffindor", "patronus": "Stag"},
+    {"name": "Ron", "House": "Gryffindor", "patronus": "Jack Russel terrier"},
+    {"name": "Draco", "house": "Slytherin", "patronus": None},
+    
+]
+
