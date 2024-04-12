@@ -21,5 +21,5 @@ def square(n):
     # return n * n   
     # return pow(n, 3)
     return n ** 4
- 
+
 main()
